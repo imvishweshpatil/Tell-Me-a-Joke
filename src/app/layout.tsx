@@ -1,4 +1,4 @@
-import Loader from "./components/loader";
+// import Loader from "./components/loader";
 // import Nav from "./components/navbar";
 import "./globals.css";
 
