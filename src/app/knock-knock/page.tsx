@@ -1,6 +1,6 @@
 "use client";
 // import Link from "next/link";
-import { useState, useEffect, use } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { FaHome, FaArrowRight } from "react-icons/fa";
 
