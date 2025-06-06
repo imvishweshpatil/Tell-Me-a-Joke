@@ -1,38 +1,107 @@
-Checkout👉 https://tell-me-a-joke-drab.vercel.app/
+😂 Tell Me a Joke
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+A sleek, responsive web app built with Next.js 14 and Tailwind CSS that fetches and displays random pickup lines from api.jcwyt.com/pickup. The app includes a serverless proxy to handle CORS issues, ensuring smooth client-side fetching.
 
-## Getting Started
+🔗 Live Demo: tell-me-a-joke-drab.vercel.app
+🚀 Features
 
-First, run the development server:
+    Random Pickup Lines: Fetches a new pickup line on each request.
 
+    CORS Handling: Utilizes a serverless proxy to bypass CORS restrictions.
+
+    Responsive Design: Mobile-first UI with Tailwind CSS.
+
+    Interactive UI: Includes a loading animation and a "Next" button to fetch new lines.
+
+🖼️ Preview
+
+🛠️ Tech Stack
+
+    Framework: Next.js 14
+
+    Styling: Tailwind CSS
+
+    Icons: React Icons
+
+    Deployment: Vercel
+
+🧑‍💻 Getting Started
+Prerequisites
+
+    Node.js (v16 or later)
+
+    npm or yarn
+
+Installation
+
+    Clone the repository:
 ```bash
-npm run dev
+git clone https://github.com/imvishweshpatil/Tell-Me-a-Joke.git
+cd Tell-Me-a-Joke
+```
+Install dependencies:
+```bash
+npm install
 # or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+yarn install
+```
+Run the development server:
+```bash
+    npm run dev
+    # or
+    yarn dev
+```
+    Open your browser:
+
+    Navigate to http://localhost:3000 to view the application.
+
+🧩 Project Structure
+```bash
+Tell-Me-a-Joke/
+├── app/
+│   ├── api/
+│   │   └── pickup/
+│   │       └── route.ts       # Serverless function to fetch pickup lines
+│   └── page.tsx               # Main page component
+├── public/
+│   └── images/
+│       └── screenshot.png     # Application screenshot
+├── styles/
+│   └── globals.css            # Global styles
+├── tailwind.config.js         # Tailwind CSS configuration
+├── next.config.js             # Next.js configuration
+├── package.json
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🧪 Testing
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To test the application:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+    Run the development server:
+```bash
+    npm run dev
+```
+    Open your browser:
 
-## Learn More
+    Navigate to http://localhost:3000.
 
-To learn more about Next.js, take a look at the following resources:
+    Interact with the app:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+        Click the "Next" button to fetch a new pickup line.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+        Observe the loading animation during data fetching.
 
-## Deploy on Vercel
+📦 Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The application is ready for deployment on platforms like Vercel.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Deploy with Vercel:
+
+    Push your code to GitHub.
+
+    Import your repository into Vercel.
+
+    Configure the project settings if necessary.
+
+    Deploy the application.
