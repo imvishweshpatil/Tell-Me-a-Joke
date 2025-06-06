@@ -55,25 +55,6 @@ Run the development server:
 
     Navigate to http://localhost:3000 to view the application.
 
-🧩 Project Structure
-```bash
-Tell-Me-a-Joke/
-├── app/
-│   ├── api/
-│   │   └── pickup/
-│   │       └── route.ts       # Serverless function to fetch pickup lines
-│   └── page.tsx               # Main page component
-├── public/
-│   └── images/
-│       └── screenshot.png     # Application screenshot
-├── styles/
-│   └── globals.css            # Global styles
-├── tailwind.config.js         # Tailwind CSS configuration
-├── next.config.js             # Next.js configuration
-├── package.json
-└── README.md
-```
-
 🧪 Testing
 
 To test the application:
