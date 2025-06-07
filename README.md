@@ -1,88 +1,64 @@
-😂 Tell Me a Joke
+# 😂 Tell Me a Joke
 
-A sleek, responsive web app built with Next.js 14 and Tailwind CSS that fetches and displays random pickup lines from api.jcwyt.com/pickup. The app includes a serverless proxy to handle CORS issues, ensuring smooth client-side fetching.
+**Tell Me a Joke** is a fun, interactive web application built using **Next.js** that delivers hilarious jokes across multiple categories. Whether you're in the mood for a dad joke, a programming zinger, a knock-knock pun, or a general laugh — this site has you covered.
 
-🔗 Live Demo: tell-me-a-joke-drab.vercel.app
-🚀 Features
+🔗 **Live Demo**: [tell-me-a-joke-drab.vercel.app](https://tell-me-a-joke-drab.vercel.app)
 
-    Random Pickup Lines: Fetches a new pickup line on each request.
+---
 
-    CORS Handling: Utilizes a serverless proxy to bypass CORS restrictions.
+## 🚀 Features
 
-    Responsive Design: Mobile-first UI with Tailwind CSS.
+- 🧠 **Joke Categories** – Choose from Programming, Dad, General, and Knock-Knock jokes.
+- 🏠 **Home Navigation** – Easily go back and choose a new category.
+- ⚡ **API-Driven** – Jokes are fetched dynamically from public joke APIs.
+- 📱 **Mobile-First Design** – Fully responsive and optimized for all devices.
 
-    Interactive UI: Includes a loading animation and a "Next" button to fetch new lines.
+---
 
-🖼️ Preview
+## 🛠 Tech Stack
 
-🛠️ Tech Stack
+- **Frontend Framework:** [Next.js 14](https://nextjs.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Icons:** [React Icons](https://react-icons.github.io/react-icons/)
+- **Hosting:** [Vercel](https://vercel.com/)
 
-    Framework: Next.js 14
+---
 
-    Styling: Tailwind CSS
+## 🧑‍💻 Getting Started
 
-    Icons: React Icons
+### ✅ Prerequisites
 
-    Deployment: Vercel
+- [Node.js](https://nodejs.org/en/) (v16 or later)
+- npm or yarn
 
-🧑‍💻 Getting Started
-Prerequisites
+### 📦 Installation
 
-    Node.js (v16 or later)
-
-    npm or yarn
-
-Installation
-
-    Clone the repository:
 ```bash
+# Clone the repository
 git clone https://github.com/imvishweshpatil/Tell-Me-a-Joke.git
+
+# Navigate into the directory
 cd Tell-Me-a-Joke
-```
-Install dependencies:
-```bash
+
+# Install dependencies
 npm install
 # or
 yarn install
-```
-Run the development server:
-```bash
-    npm run dev
-    # or
-    yarn dev
-```
-    Open your browser:
 
-    Navigate to http://localhost:3000 to view the application.
+▶️ Running the Development Server
 
-🧪 Testing
+npm run dev
+# or
+yarn dev
 
-To test the application:
+Visit http://localhost:3000 in your browser to use the app locally.
 
-    Run the development server:
-```bash
-    npm run dev
-```
-    Open your browser:
+🧪 Testing the App
 
-    Navigate to http://localhost:3000.
+    Start your dev server:
 
-    Interact with the app:
+npm run dev
 
-        Click the "Next" button to fetch a new pickup line.
+Go to http://localhost:3000
 
-        Observe the loading animation during data fetching.
-
-📦 Deployment
-
-The application is ready for deployment on platforms like Vercel.
-
-Deploy with Vercel:
-
-    Push your code to GitHub.
-
-    Import your repository into Vercel.
-
-    Configure the project settings if necessary.
-
-    Deploy the application.
+Choose a category and click "Next" to get new jokes.
